@@ -152,7 +152,7 @@
      <center>
        <table role=presentation class=body_size border=0 cellspacing=0 cellpadding=0 align=center width=520 bgcolor=#ffffff style="background: #ffffff; min-width: 520px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;">
          <tr>
-           <td align=center style="padding-top: 20px;"> <img role=presentation class=google_mobile width=230 height=26 border=0 src=https://demo.cabidiol.com/wp-content/uploads/2019/07/venops_logo.png style="width: 82px; height:26px; text-align: center; border: none;">
+           <td align=center style="padding-top: 20px;"> <img role=presentation  width=230 height=26 border=0 src=https://demo.cabidiol.com/wp-content/uploads/2022/04/NEW-LOGO-FOR-USE.png style="text-align: center; border: none;">
            </td>
          </tr>
          <tr>
@@ -191,14 +191,73 @@
                      <tr>
                        <td height=15 style="line-height: 4px; font-size: 4px;"></td>
                      </tr>
-
+                     <tr>
+                       <td class="subheadline space2" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 70px 0 70px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> <strong>This email contains important information please read it fully before proceeding.</strong></td>
+                     </tr>
                      <!--<![endif]-->
                      <tr>
-                       <td class="subheadline space2" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 70px 0 70px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Thanks for creating an account on <?php echo $blogname?>. Your username is <?php echo $user_login ?>. You can access your account area to view orders, change your password, and more at: <strong><?php echo make_clickable( esc_url( wc_get_page_permalink( 'myaccount' ) ) )?></strong>.</td>
+                       <td class="subheadline space2" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 70px 0 70px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Thanks for creating an account on . Your username is . You can access your account area to view orders, change your password, and more at: <strong><?php echo make_clickable( esc_url( wc_get_page_permalink( 'myaccount' ) ) )?></strong>.</td>
                      </tr>
                      <tr>
                        <td class="subheadline space6" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Here are a few tips to get you started.</td>
                      </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>Welcome to <?php echo $blogname?>. You have successfully registered with the username <?php echo $user_login ?>. To begin using Venops, please purchase your membership following these quick steps. </td>
+                       </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 1</strong>: Create an account and register - Done.</td>
+                       </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 2a</strong>: If you received a membership code for Venops through one of our partnerships, proceed here. Otherwise, skip to Step 2b: </td>
+                       </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the link below, returning you to the Venops website.</td>
+                       </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator on the Membership page and specify the details for your organization.</td>
+                     </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. In the shopping cart, enter the coupon code you received. A payment source will not be needed. Complete the transaction for immediate Venops access.</td>
+                     </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  Misplaced your code? Reach out to member services (memberservices@venops.com) to get the code specific to your parent organization.</td>
+                     </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  <strong>Step 2b</strong>: If Venops is not offered at a reduced cost by a parent organization:</td>
+                     </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the activation link below, returning you to the Venops website.</td>
+                     </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator and specify the details needed to determine pricing.</td>
+                     </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. Complete the steps to checkout and purchase for immediate Venops access.</td>
+                     </tr>
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 3:</strong><a href="https://www.venops.com/memberships">Click this link, returning you to Venops to complete your membership purchase.</a></td>
+                     </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Questions? Call Member Services at 855.567.3552 or email memberservices@venops.com.</a></td>
+                     </tr>
+
+
+
+
+
+
+
+
+ 
+
+
+
                      <tr>
                        <td height=45></td>
                      </tr>
@@ -297,50 +356,7 @@
          
         
 
-         <tr>
-           <td width=480 style="-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%; border: 2px solid #E8EAED; border-radius: 16px;">
-             <table role=presentation border=0 cellspacing=0 cellpadding=0 width=100%>
-               <tr>
-                 <td style="font-size:0pt; line-height:0pt; padding:0; margin:0;" width=24></td>
-
-                 <!--[if mso]>
-                                <td style="margin-bottom:67px; padding: 21px 10px 35px 20px;">    <img role="presentation" class="fa_mobile" width="24" height="24" border="0" src="https://services.google.com/fh/files/emails/help_outline.png" style="width: 24px; height:24px; text-align: center; border: none; font-size:3px;">
-</td>
-                                <![endif]-->
-
-                 <!--[if !mso]>
-<!-->
-                 <td style="padding: 47px 10px 40px 20px;" valign=top> <img role=presentation class=fa_mobile width=24 height=24 border=0 src=https://services.google.com/fh/files/emails/help_outline.png style="width: 24px; height:24px; text-align: center; border: none; font-size:3px;">
-                 </td>
-
-                 <!--<![endif]-->
-                 <td valign=top>
-
-                   <!--[if mso]>
-                                    <div class="device_txt" style="margin-bottom:15px; padding-left: 20px; color:#202124; font-family:Google Sans, Roboto, Arial; font-size:18px; line-height:28px; text-align:left; padding-top:18px; padding-bottom:12px; word-break:normal;direction:ltr;" dir="ltr" valign="top">Find answers</div>
-                                    <![endif]-->
-
-                   <!--[if !mso]>
-<!-->
-                   <div class=device_txt style="padding-left: 20px; color:#202124; font-family:Google Sans, Roboto, Arial; font-size:18px; line-height:28px; text-align:left; padding-top:45px; padding-bottom:12px; word-break:normal;direction:ltr;" dir=ltr valign=top>Find answers</div>
-
-                   <!--<![endif]-->
-
-                   <!--[if mso]>
-                                    <div class="subheadline space7" style="margin-bottom:20px; padding-left: 20px; padding-right: 20px; color:#5F6368; font-family:Roboto, OpenSans, Open Sans, Arial, sans-serif; font-weight: normal; font-size:16px; line-height:24px; text-align:left; padding-bottom:50px; word-break:normal;direction:ltr;" dir="ltr" valign="top">Visit the <a class="tstt" href="https://www.google.com/appserve/mkt/p/AD-FnEzz1yaZIf0vpHRUZvFDJdvMuUhB5YtRjCtg4Sav7tfD1eVDY4V92xtlph5TijrD6yl7TZQy6vTw9o8kfrrTVm3hBQVOr4vTEO8xgRp25uUeDQq61zNVKpE1cWDDXLy5Ph1iKLDmhrsx7bfyja7w3NDTHYKZIOkChJI_PeDuGYXO5VAdSc3BSdWyeg" target="_blank" style="color:#1A73E8; text-decoration:none; font-weight:normal; border:0; ; white-space: normal; text-decoration: underline;"> Help Center</a> to learn all about your new Google Account.</div>
-                                    <![endif]-->
-
-                   <!--[if !mso]>
-<!-->
-                   <div class="subheadline space7 tst4" style="padding-left: 20px; padding-right: 20px; color:#5F6368; font-family:Roboto, OpenSans, Open Sans, Arial, sans-serif; font-weight: normal; font-size:16px; line-height:24px; text-align:left; padding-bottom:50px; word-break:normal;direction:ltr;" dir=ltr valign=top>Visit the <a class=tstt href=https://demo.cabidiol.com/faq/ target=_blank style="color:#1A73E8; text-decoration:none; font-weight:normal; border:0; ; white-space: normal; text-decoration: underline;"> Help Center</a> to learn all about your new Venops Account.</div>
-
-                   <!--<![endif]-->
-                 </td>
-                 <td style="font-size:0pt; line-height:0pt; padding:0; margin:0;" width=24></td>
-               </tr>
-             </table>
-           </td>
-         </tr>
+         
          <tr>
            <td style="-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100%;">
              <table role=presentation border=0 cellspacing=0 cellpadding=0 align=center width=100%>
@@ -348,7 +364,7 @@
                  <td height=30></td>
                </tr>
                <tr>
-                 <td width=134 height=46 align=center style="font-size:8px; word-break:normal;direction:ltr;" dir=ltr> <img role=presentation class=google_mobile width=82 height=26 border=0 src=https://demo.cabidiol.com/wp-content/uploads/2022/01/venops_logo-2.png style="width: 82px; height:26px; text-align: center; border: none;">
+                 <td width=134 height=46 align=center style="font-size:8px; word-break:normal;direction:ltr;" dir=ltr> <img role=presentation  width=82 height=26 border=0 src=https://demo.cabidiol.com/wp-content/uploads/2022/04/logo.png style="text-align: center; border: none;">
                  </td>
                </tr>
                <tr>

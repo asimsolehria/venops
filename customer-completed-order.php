@@ -175,53 +175,27 @@
 
                               <!-- <h2>?Thank you for your purchase! </h2> -->
                               <p style="color: #21366B; line-height: 150%; font-size: 16px; margin: 0;">
-                                Hi <strong><?php echo $order->get_billing_first_name() ?></strong>,
-                                <br />
-                                Your order is completed. Below are listed your order member details.Thank you!<br />
+                                Hi <strong><?php echo $order->get_billing_first_name() ; ?></strong>,
+                                <br /> <i>
+                               This message is a confirmation that your Venops membership for [<?php foreach( $order->get_items() as $item ){ echo $item->get_name(); }?>] is now active with immediate access to all Venops regulatory compliance solutions. <br> 
+To get started, we recommend downloading the Quick-Start Guide (QSG) for the Venops solution you’d like to initiate. All QSGs can be found in the Downloads area in the top-right Account menu. <br>
+Note that the Venops Knowledge Base contains extensive tutorials of all services. It can also answer most questions entered into the search bar. You’ll find the Knowledge Base at the top-right corner after logging in. <br>
+If you prefer to schedule a short training session with member services to get started, just <a href="https://calendly.com/venopsmeeting/intro">click our scheduling link</a> to choose a date and time. <br>
 
+Questions? You can always email us at memberservices@venops.com for direct assistance.
+
+Welcome to regulatory compliance for professionals.<br />
+</i>
                                 <!--
 		<br /><small>
 		<b>If you selected home delivery:</b>
 			<br />
 		One of our drivers will be there between 11am and 7pm on Friday.
 		-->
-                                <br /><b>Notes:</b><br />
-                                <i>The Venops website includes a Knowlege Base with complete guides for each of our regulatory compliance services, as well as useful direct-source references.<br /><br />
-
-                                Questions? You can always email us at memberservices@venops.com for direct assistance.
-                                Welcome to regulatory compliance for professionals.</i>
-                                <br>
+                                
                               </p>
                               <hr style="color: #21366B;" />
-                              <table class="row actions" style="width: 100%; border-spacing: 0; border-collapse: collapse; margin-top: 20px;">
-                                <tbody>
-                                  <tr>
-                                    <td class="empty-line" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif; line-height: 0em;"> </td>
-                                  </tr>
-                                  <tr>
-                                    <td align="center" class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;">
-                                      <br />
-                                      <!-- <a href="#" class="" style="color: #21366B; text-transform: uppercase; font-size: 16px; text-decoration: none; padding: 9px 30px; border: 1px solid #21366B;">View your order</a><br />
-                                      <br />
-                                      <table class="" style="border-spacing: 0; border-collapse: collapse;">
-                                        <tbody>
-                                          <tr>
-                                            <td class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;"><b>or</b></td>
-                                          </tr>
-                                        </tbody>
-                                      </table> -->
-                                      <br />
-                                      <table class="" style="border-spacing: 0; border-collapse: collapse;">
-                                        <tbody>
-                                          <tr>
-                                            <td align="center" class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;"><a href="https://demo.cabidiol.com/" style="background-color: #21366B; color: #f1e6e0; text-transform: uppercase; font-size: 16px; text-decoration: none; padding: 9px 30px; border: 1px solid #21366B;">Visit our store</a></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              
                             </td>
                           </tr>
                         </tbody>
@@ -407,7 +381,7 @@
                                     <th align="left">Next payment</th>
                                   </tr>
                                   <tr>
-                                    <td align="left"><?php echo $subscriptionID ?></td>
+                                  <td align="left"><?php echo $subscription->get_billing_interval()." ".$subscription->get_billing_period() ?></td>
                                     <td align="left"><?php echo date("F j, Y", strtotime($subscription->get_date( 'start'))); ?></td>
                                     <td align="left"><?php if ($subscription->get_date( 'trial_end')===0) {echo "When Cancelled";}else { echo date("F j, Y", strtotime($subscription->get_date( 'trial_end')));}?></td>
                                     <td align="left"><?php echo date("F j, Y", strtotime($subscription->get_date( 'next_payment')));?></td>

@@ -191,35 +191,7 @@
                                 <br>
                               </p>
                               <hr style="color: #21366B;" />
-                              <table class="row actions" style="width: 100%; border-spacing: 0; border-collapse: collapse; margin-top: 20px;">
-                                <tbody>
-                                  <tr>
-                                    <td class="empty-line" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif; line-height: 0em;"> </td>
-                                  </tr>
-                                  <tr>
-                                    <td align="center" class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;">
-                                      <br />
-                                      <!-- <a href="#" class="" style="color: #21366B; text-transform: uppercase; font-size: 16px; text-decoration: none; padding: 9px 30px; border: 1px solid #21366B;">View your order</a><br />
-                                      <br />
-                                      <table class="" style="border-spacing: 0; border-collapse: collapse;">
-                                        <tbody>
-                                          <tr>
-                                            <td class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;"><b>or</b></td>
-                                          </tr>
-                                        </tbody>
-                                      </table> -->
-                                      <br />
-                                      <table class="" style="border-spacing: 0; border-collapse: collapse;">
-                                        <tbody>
-                                          <tr>
-                                            <td align="center" class="" style="font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;, &#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;"><a href="https://demo.cabidiol.com/" style="background-color: #21366B; color: #f1e6e0; text-transform: uppercase; font-size: 16px; text-decoration: none; padding: 9px 30px; border: 1px solid #21366B;">Visit our store</a></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              
                             </td>
                           </tr>
                         </tbody>
@@ -405,7 +377,7 @@
                                     <th align="left">Next payment</th>
                                   </tr>
                                   <tr>
-                                    <td align="left"><?php echo $subscriptionID ?></td>
+                                  <td align="left"><?php echo $subscription->get_billing_interval()." ".$subscription->get_billing_period() ?></td>
                                     <td align="left"><?php echo date("F j, Y", strtotime($subscription->get_date( 'start'))); ?></td>
                                     <td align="left"><?php if ($subscription->get_date( 'trial_end')===0) {echo "When Cancelled";}else { echo date("F j, Y", strtotime($subscription->get_date( 'trial_end')));}?></td>
                                     <td align="left"><?php echo date("F j, Y", strtotime($subscription->get_date( 'next_payment')));?></td>
