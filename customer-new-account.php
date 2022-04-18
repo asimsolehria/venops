@@ -199,48 +199,48 @@
                        <td class="subheadline space2" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 70px 0 70px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Thanks for creating an account on . Your username is . You can access your account area to view orders, change your password, and more at: <strong><?php echo make_clickable( esc_url( wc_get_page_permalink( 'myaccount' ) ) )?></strong>.</td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Here are a few tips to get you started.</td>
+                       <td class="subheadline space6" align=center style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:center; word-break:normal;direction:ltr;" dir=ltr> Here are a few tips to get you started. <br> <br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>Welcome to <?php echo $blogname?>. You have successfully registered with the username <?php echo $user_login ?>. To begin using Venops, please purchase your membership following these quick steps. </td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>Welcome to <?php echo $blogname?>. You have successfully registered with the username <?php echo $user_login ?>. To begin using Venops, please purchase your membership following these quick steps. <br><br></td>
                        </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 1</strong>: Create an account and register - Done.</td>
-                       </tr>
-
-                     <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 2a</strong>: If you received a membership code for Venops through one of our partnerships, proceed here. Otherwise, skip to Step 2b: </td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 1</strong>: Create an account and register - Done. <br><br></td>
                        </tr>
 
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the link below, returning you to the Venops website.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 2a</strong>: If you received a membership code for Venops through one of our partnerships, proceed here. Otherwise, skip to Step 2b: <br><br></td>
                        </tr>
 
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator on the Membership page and specify the details for your organization.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the link below, returning you to the Venops website.<br><br></td>
+                       </tr>
+
+                     <tr>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator on the Membership page and specify the details for your organization.<br><br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. In the shopping cart, enter the coupon code you received. A payment source will not be needed. Complete the transaction for immediate Venops access.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. In the shopping cart, enter the coupon code you received. A payment source will not be needed. Complete the transaction for immediate Venops access.<br><br></td>
                      </tr>
 
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  Misplaced your code? Reach out to member services (memberservices@venops.com) to get the code specific to your parent organization.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  Misplaced your code? Reach out to member services (memberservices@venops.com) to get the code specific to your parent organization.<br><br></td>
                      </tr>
 
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  <strong>Step 2b</strong>: If Venops is not offered at a reduced cost by a parent organization:</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  <strong>Step 2b</strong>: If Venops is not offered at a reduced cost by a parent organization:<br><br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the activation link below, returning you to the Venops website.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  1. Click the activation link below, returning you to the Venops website.<br><br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator and specify the details needed to determine pricing.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  2. Scroll down to the pricing calculator and specify the details needed to determine pricing.<br><br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. Complete the steps to checkout and purchase for immediate Venops access.</td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr>  3. Complete the steps to checkout and purchase for immediate Venops access.<br><br></td>
                      </tr>
                      <tr>
-                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 3:</strong><a href="https://www.venops.com/memberships">Click this link, returning you to Venops to complete your membership purchase.</a></td>
+                       <td class="subheadline space6" align=left style="color:#3C4043; font-family:&quot;Roboto&quot;, OpenSans, &quot;Open Sans&quot;, Arial, sans-serif; font-size:16px; font-weight:normal; line-height:24px; margin:0; padding:0 80px 0 80px; text-align:left; word-break:normal;direction:ltr;" dir=ltr> <strong>Step 3:</strong><a href="https://www.venops.com/memberships">Click this link, returning you to Venops to complete your membership purchase.<br><br></a></td>
                      </tr>
 
                      <tr>
