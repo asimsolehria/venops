@@ -176,11 +176,11 @@
                               <!-- <h2>?Thank you for your purchase! </h2> -->
                               <p style="color: #21366B; line-height: 150%; font-size: 16px; margin: 0;">
                                 Hi <strong><?php echo $order->get_billing_first_name() ; ?></strong>,
-                                <br /> <i>
-                               This message is a confirmation that your Venops membership for [<?php foreach( $order->get_items() as $item ){ echo $item->get_name(); }?>] is now active with immediate access to all Venops regulatory compliance solutions. <br> 
-To get started, we recommend downloading the Quick-Start Guide (QSG) for the Venops solution you’d like to initiate. All QSGs can be found in the Downloads area in the top-right Account menu. <br>
-Note that the Venops Knowledge Base contains extensive tutorials of all services. It can also answer most questions entered into the search bar. You’ll find the Knowledge Base at the top-right corner after logging in. <br>
-If you prefer to schedule a short training session with member services to get started, just <a href="https://calendly.com/venopsmeeting/intro">click our scheduling link</a> to choose a date and time. <br>
+                                <br /> <i> <br>
+                               This message is a confirmation that your Venops membership for [<?php foreach( $order->get_items() as $item ){ echo $item->get_name(); }?>] is now active with immediate access to all Venops regulatory compliance solutions. <br> <br>
+To get started, we recommend downloading the Quick-Start Guide (QSG) for the Venops solution you’d like to initiate. All QSGs can be found in the Downloads area in the top-right Account menu. <br><br>
+Note that the Venops Knowledge Base contains extensive tutorials of all services. It can also answer most questions entered into the search bar. You’ll find the Knowledge Base at the top-right corner after logging in. <br><br>
+If you prefer to schedule a short training session with member services to get started, just <a href="https://calendly.com/venopsmeeting/intro">click our scheduling link</a> to choose a date and time. <br><br>
 
 Questions? You can always email us at memberservices@venops.com for direct assistance.
 
